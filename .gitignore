@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+.streamlit/secrets.toml
+*.log
+.env
+.env.*
+!.env.example
+
+# Keep only the clearly synthetic starter dataset in Git. Put personal data elsewhere.
+/data/*
+!/data/sample_biogas_operations.csv
+marketing*.csv
+*_marketing*.csv
+*.xlsx
+*.xls
+/uploads/
+
